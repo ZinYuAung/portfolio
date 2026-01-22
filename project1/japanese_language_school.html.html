@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap Assignment</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous"/>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand bg-black text-white fixed-top container-fluid mb-5">
+        <div class="container-fluid justify-content-start">
+          <ul class="nav">
+            <li class="nav-item">
+              <a class="nav-link link-light active" aria-current="page" href="Japanese Language School Ex/welcome.html">Marvelous</a>  
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-light active" aria-current="page" href="Japanese Language School Ex\Home.html">Home</a>
+            </li> 
+            <li class="nav-item dropdown">
+              <a class="nav-link link-light dropdown-toggle" data-bs-toggle="dropdown" role="button" aria-expanded="false" href="#">Courses</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="JapaneseLanguageSchoolEx/beginner.html">Beginner Japanese</a></li>
+                  <li><a class="dropdown-item" href="#">Business Japanese</a></li>
+                  <li><a class="dropdown-item" href="#">JLPT Prepation </a></li>
+                  <li><a class="dropdown-item" href="#">Conversational Japanese</a></li> 
+                  <li><hr class="dropdown-divider" /></li>
+                  <li><a class="dropdown-item" href="#">All Courses</a></li>
+                </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle link-light" data-bs-toggle="dropdown" role="button" aria-expanded="false" href="#">Locations</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Yangon</a></li>
+                  <li><a class="dropdown-item" href="#">Mandalay</a></li>
+                  <li><a class="dropdown-item" href="#">Tokyo </a></li>
+                </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-light" href="#">Contacts</a>
+            </li>
+          </ul>
+        </div>
+      </nav>  
+      <div class="container-fluid row">
+        <div class="col-3"></div>
+        <div class="col-6 text-center">
+          <main class="container-fluid mt-5">
+            <div id="carouselExampleIndicators" class="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators"  data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1" ></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators"  data-bs-slide-to="1"  aria-label="Slide 2" ></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators"  data-bs-slide-to="2"  aria-label="Slide 3" ></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active mt-5">
+                  <img src="image/fuji.png" class="d-block w-100" alt="fuji" />
+                </div>
+                <div class="carousel-item mt-5">
+                  <img src="image/hanabi.jfif" class="d-block w-100" alt="hanaabi" />
+                </div>
+                <div class="carousel-item mt-5">
+                  <img src="image/fujisakura.jfif" class="d-block w-100" alt="fujisakura" />
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev" >
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </main>
+        </div>
+        <div class="col-3"></div>     
+      <div class="row container-fluid my-5 " >     
+        <div class="col-1"></div>
+        <div class="col-10  fs-6">
+          <div class="row  mt-3 ">
+            <h3 class="text-start mb-3">Our Japanese Teachers</h3>
+            <div class="col">
+              <div class="card h-100" >
+                <img src="image/sensei1.jfif" class="card-img-top" alt="teacher1">
+                <div class="card-body">
+                  <h5 class="card-title">Senior Japanese Instructor</h5>
+                  <p class="card-text">Yuki Hakamura has over 10 years of experience teaching Japanese to beginners, intermediate learners, specializes in JLPT Preparation and Conversational skills.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">M.A. in Japanese Language Education</li>
+                  <li class="list-group-item">Native Speaker</li>
+                  <li class="list-group-item">JLPT N5-N2, Conversational Japanese</li>
+                </ul>
+                <div class="card-body">
+                  <a href="#" class="card-link">Contact</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100" >
+                <img src="image/sensei2.jfif" class="card-img-top" alt="teacher2">
+                <div class="card-body">
+                  <h5 class="card-title">Senior Japanese Instructor</h5>
+                  <p class="card-text">Hiroto Sato specializes in teaching business Japanese and advanced grammar. He brings real-world cultural context into every lesson and has taught in japan and abroad. </p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">M.A. in Japanese Language Education</li>
+                  <li class="list-group-item">Native Speaker:</li>
+                  <li class="list-group-item">JLPT N5-N3, Beginner Grammar</li>
+                </ul>
+                <div class="card-body">
+                  <a href="#" class="card-link">Contact</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100" >
+                <img src="image/sensei3.jpg" class="card-img-top" alt="teacher3">
+                <div class="card-body">
+                  <h5 class="card-title">JLPT Specialist & Online Coach</h5>
+                  <p class="card-text">Ayaka Tanaka helps students pass JLPT N5 to N1 with effective methods and a friendly approach and customized online lessons, she makes learning fun and effective.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">M.Ed. in Language Teaching</li>
+                  <li class="list-group-item">Native Speaker:</li>
+                  <li class="list-group-item">Business Japanese, JLPT N2-N1</li>
+                </ul>
+                <div class="card-body">
+                  <a href="#" class="card-link">Contact</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-1"></div>
+      </div>
+      <div class="container-fluid row mb-5">
+        <div class="col-1"></div>
+        <div class="col-10">
+          <div class="row">
+            <h3>Student Reviews</h3>
+            <div class="col">
+              <div class="card h-100">
+                <div class="card-body">
+                  <h5 class="card-title">⭐⭐⭐⭐⭐</h5>
+                  <h6 class="card-subtitle mb-2 text-body-secondary">Emily Chen</h6>
+                  <p class="card-text">"Yuki-sensei makes Japanese so fun! Her  lessons are easy to follow and I feel more confident speaking now!"</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <div class="card-body">
+                  <h5 class="card-title">⭐⭐⭐⭐</h5>
+                  <h6 class="card-subtitle mb-2 text-body-secondary">James Lee</h6>
+                  <p class="card-text">"Hiroto-sensei helped me a lot with JLPT N2. His explanations are clear and he’s very patient."</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <div class="card-body">
+                  <h5 class="card-title">⭐⭐⭐⭐⭐</h5>
+                  <h6 class="card-subtitle mb-2 text-body-secondary">Sophie Tan</h6>
+                  <p class="card-text">"Ayaka is the best online teacher I've had. She helped me pass N5 and now I’m working on N4!"</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-1"></div>
+      </div>
+      </div>
+      <footer class="bg-black text-light fs-6 pt-2 text-center fixed-bottom" style="height: 8%;">&copy;2025 Marvelous Japanese Language School. All rights reserved.</footer>
+    </div>
+  </body>
+</html>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+

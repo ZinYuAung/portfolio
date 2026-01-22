@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>signup</title>
+  </head>
+  <body bgcolor="#b8ffff">
+    <h1 align="center">Sign Up for Courses</h1>
+    <form method="post">
+      <label for="name">Full Name</label><br>
+      <input type="text" name="fullname" required="required" placeholder="Enter Full Name"/>
+      <br /><br />
+      <label for="email">Student Email </label><br />
+      <input type="email" name="email" required="required" placeholder="Enter Student Email" />
+      <br /><br />
+      <label for="gender"> Gender </label><br />
+      <input type="radio" id="male" name="gender" value="male" />
+      <label for="male">Male</label>
+      <input type="radio" id="female" name="gender" value="female" />
+      <label for="female">Female</label>
+      <input type="radio" id="other" name="gender" value="other" />
+      <label for="other">Other</label>
+      <br /><br />
+      <label for="phoneno">Phone Number</label> <br>
+        <select name="phonecode" id="phonecode">
+            <option value="phonecode">+95 Myanmar</option>
+            <option value="phonecode">+81 Japan</option>
+            <option value="phonecode">+1 United States</option>
+            <option value="phonecode">+44 United Kingdom</option>
+            <option value="phonecode">+66 Thailand</option>
+        </select>
+        <input type="text" name="phoneno" required="required" placeholder="Enter Phone Number">
+      <br><br>
+      <label for="address">Address </label><br />
+        <input type="text" name="address" required="required" placeholder="Enter Address" /> 
+        <br /><br />
+      <label for="city">City</label> <br />
+        <input type="city" name="city" required="required" placeholder="Enter City" />
+      <br /><br />
+      <label for="state">State/Province </label><br />
+        <input type="sstate" name="state" required="required" placeholder="Enter State" />
+      <br /><br />
+      <label for="postal">Postal/Zip Code</label> <br />
+        <input type="postal" name="postal" required="required" placeholder="Enter Postal/Zip Code"/>
+      <br /><br />
+    <input type="submit" name="signup" value="sign up">
+    <input type="reset" name="reset" value="reset">
+    </form>
+    <br /><br /><br />
+    <a href="Home.html"> Back to Home Page</a><br><br>
+    <a href="welcome.html"> Back to welcome Page</a>
+  </body>
+</html>
